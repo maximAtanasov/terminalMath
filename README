@@ -1,0 +1,32 @@
+A command-line calculator written in C.
+
+To compile on Linux just run make.
+For Windows, pick an IDE/Compiler of your choosing and compile with that.
+
+Supports:
+
+addition
+substraction
+multiplication
+division
+powers
+sin()
+cos()
+tan()
+abs()
+brackets
+
+The calculator works using Reverse-Polish Notation and the Shunting Yard algorithm.
+
+Example input:
+
+3+4*-(23/7^3)+sin(pi)*abs((-2^3)*e) 
+
+== 2.731793
+
+
+This program was written a long time ago and so some things
+are written in a janky, weird/begginer kind of way. I will maybe
+clean it up a bit later and add more functionality. Doubles are used for all
+calculations.
+
