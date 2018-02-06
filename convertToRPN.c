@@ -8,14 +8,13 @@ bool isSpecialNumber(char ch);
 bool isDigit(char ch);
 bool isOperator(char ch);
 
-
+DECLARE_STACK(char)
 
 int convertToRPN(char* infix, char* result, int buffer_size)
 {
     char ch = 0;
     char postfix[buffer_size];
     memset(postfix , 0 , sizeof(postfix));
-    DECLARE_STACK(char)
     Stack_char* stack0 = NULL;
     stack0 = new_Stack_char(stack0);
     preProcess(infix);

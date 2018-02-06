@@ -9,13 +9,12 @@ bool isOperator(char ch);
 #define E  2.718281828459
 #define PI 3.141592
 
+DECLARE_STACK(double)
 
-double evaluateRPN(char* postfix)
+double evaluateRPN(char* postfix, int length)
 {
-    DECLARE_STACK(double)
     Stack_double* stack0 = NULL;
     stack0 = new_Stack_double(stack0);
-
     char buff[strlen(postfix)], ch;
     strcpy(buff, "");
     int k = 0;
@@ -91,6 +90,7 @@ double evaluateRPN(char* postfix)
                     return NAN;
                 }
                 double temp = calculate(operand2, operand1, ch);
+
                 stackPush_double(stack0, temp);
             }
        }

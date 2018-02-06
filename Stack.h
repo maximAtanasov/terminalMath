@@ -65,12 +65,6 @@
         else\
             return NULL;\
     }\
-    void print_Stack_##TYPE(Stack_##TYPE* this){\
-        TYPE* temp = this->stackArr;\
-        int i;\
-        for(i = 0; i <= this->position - 1; i++)\
-            print_##TYPE(temp++);\
-    }\
     void destroy_Stack_##TYPE(Stack_##TYPE* this){\
         free(this->stackArr);\
         free(this);\

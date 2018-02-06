@@ -1,0 +1,22 @@
+# depslib dependency file v1.0
+1517940178 source:c:\users\max\desktop\termmath\converttorpn.c
+	"defs.h"
+
+1517940146 c:\users\max\desktop\termmath\defs.h
+	<stdio.h>
+	<string.h>
+	<stdlib.h>
+	<stdbool.h>
+	<math.h>
+	"Stack.h"
+
+1517940159 c:\users\max\desktop\termmath\stack.h
+	<stdio.h>
+	<stdlib.h>
+
+1517941457 source:c:\users\max\desktop\termmath\evaluaterpn.c
+	"defs.h"
+
+1517941367 source:c:\users\max\desktop\termmath\main.c
+	"defs.h"
+

@@ -27,12 +27,14 @@ int main(void){
                 continue;
             }
             double result = evaluateRPN(buff);
-            snprintf(buff, sizeof(buff), "%lf", result);
+
+            snprintf(buff, sizeof(buff), "%f", result);
             truncate(buff);
             printf("%s\n", buff);
         }
         memset(input,0,strlen(input));
     }
+    return 0;
 }
 
 
