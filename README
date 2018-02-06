@@ -1,9 +1,9 @@
 A command-line calculator written in C.
 
 To compile on Linux just run make.
-For Windows, pick an IDE/Compiler of your choosing and compile with that.
-Note: Apparantely Visual Studio still doesn't support c99 and in turn variable length arrays. 
-(it's 2018 Microsoft...). I think any other compiler will work and will add a windows project later.
+For Windows, a CodeBlocks project is included (reqiures that you have it installed along with MinGW, a binary is also included).
+Note: Apparantely Visual Studio still doesn't support c99 and in turn variable length arrays, so you can't compile the project with that. 
+(it's 2018 Microsoft...)
 
 Supports:
 
